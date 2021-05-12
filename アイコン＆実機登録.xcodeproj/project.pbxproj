@@ -13,6 +13,7 @@
 		CEB7C29C264B9E1600BC1354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB7C29A264B9E1600BC1354 /* Main.storyboard */; };
 		CEB7C29E264B9E1800BC1354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB7C29D264B9E1800BC1354 /* Assets.xcassets */; };
 		CEB7C2A1264B9E1800BC1354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB7C29F264B9E1800BC1354 /* LaunchScreen.storyboard */; };
+		CEB7C2CB264C2AB200BC1354 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB7C2CA264C2AB200BC1354 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CEB7C29D264B9E1800BC1354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB7C2A0264B9E1800BC1354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEB7C2A2264B9E1800BC1354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB7C2CA264C2AB200BC1354 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		CEB7C293264B9E1600BC1354 /* アイコン＆実機登録 */ = {
 			isa = PBXGroup;
 			children = (
+				CEB7C2CA264C2AB200BC1354 /* icon.png */,
 				CEB7C294264B9E1600BC1354 /* AppDelegate.swift */,
 				CEB7C296264B9E1600BC1354 /* SceneDelegate.swift */,
 				CEB7C298264B9E1600BC1354 /* ViewController.swift */,
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB7C2CB264C2AB200BC1354 /* icon.png in Resources */,
 				CEB7C2A1264B9E1800BC1354 /* LaunchScreen.storyboard in Resources */,
 				CEB7C29E264B9E1800BC1354 /* Assets.xcassets in Resources */,
 				CEB7C29C264B9E1600BC1354 /* Main.storyboard in Resources */,
@@ -287,12 +291,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQ3MC6PFP6;
 				INFOPLIST_FILE = "アイコン＆実機登録/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.yasuda.cory.---------";
+				PRODUCT_BUNDLE_IDENTIFIER = app.yasuda.cory.iconandzikkitouroku;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,12 +310,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQ3MC6PFP6;
 				INFOPLIST_FILE = "アイコン＆実機登録/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.yasuda.cory.---------";
+				PRODUCT_BUNDLE_IDENTIFIER = app.yasuda.cory.iconandzikkitouroku;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
